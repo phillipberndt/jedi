@@ -621,7 +621,7 @@ class Interpreter(Script):
     upper
     """
 
-    def __init__(self, source, namespaces=[], **kwds):
+    def __init__(self, source, namespaces=[{}], **kwds):
         """
         Parse `source` and mixin interpreted Python objects from `namespaces`.
 
